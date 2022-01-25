@@ -1,23 +1,8 @@
 {
   "name": "node-easyfetch",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wory48/node-easyfetch.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wory48/node-easyfetch/issues"
-  },
-  "homepage": "https://github.com/wory48/node-easyfetch#readme",
+  "version": "0.1.0",
+  "description": "Brings superagent styling inside node-fetch",
+  "main": "src/index.js",
   "dependencies": {
     "form-data": "^4.0.0",
     "node-fetch": "^3.2.0"
@@ -26,5 +11,25 @@
     "eslint": "^8.7.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.4"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wory48/node-easyfetch.git"
+  },
+  "keywords": [
+    "node-fetch",
+    "node-superfetch",
+    "fetch",
+    "superagent",
+    "easyfetch"
+  ],
+  "author": "wory48, dragonfire535",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wory48/node-easyfetch/issues"
+  },
+  "homepage": "https://github.com/wory48/node-easyfetch#readme"
 }
