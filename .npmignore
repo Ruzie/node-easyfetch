@@ -1,0 +1,10 @@
+node_modules/
+package-lock.json
+.README.md.swp
+.eslintrc.json
+logs/
+*.log
+.git/
+.gitignore
+.gitattributes
+.travis.yml
