@@ -10,7 +10,7 @@ export default class Request {
             throw new Error("In options param URL argument is required.");
         }
         this.url = new URL(options.url);
-        this.method = options?.method ?? null ? options.method?.toUpperCase() : "GET"; // If there;s no method provided use default "GET" method
+        this.method = options?.method ?? null ? options?.method?.toUpperCase() : "GET"; // If there;s no method provided use default "GET" method
         if (!METHODS.includes(options?.method)) {
             throw new TypeError(`Provided method: ${this.method} doesn't exists.`);
         }
@@ -49,7 +49,7 @@ export default class Request {
 
             get text() {
                 if (this.noResultData) return null;
-                return raw.toString();
+                return raw?.toString();
             },
             get body() {
                 if (this.noResultData) return null;
